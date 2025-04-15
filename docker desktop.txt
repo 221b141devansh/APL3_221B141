@@ -1,11 +1,12 @@
-docker desktop
+DOCKER DESKTOP
 docker pull hello-world
 docker run hello-world
 docker pull ubuntu
 docker run -it ubuntu
 docker stop <id>
 
-docker network
+
+DOCKER NETWORK
 docker network ls
 docker network create mongo network
 docker run -d -p 27017:27017 --name mongo --network mongo-network -e MONGO_INITDB_ROOT_USERNAME=ADMIN -e MONGO_INITDB_ROOT_PASSWORD=admin mongo
